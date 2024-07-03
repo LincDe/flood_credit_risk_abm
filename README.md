@@ -10,7 +10,12 @@ The initialization of the agents is based on the distribution extracted by KDE m
 ## File structure:
 
 agents.py - contains the mesa agent class
+
 model.py - contains the mesa model class
+
 run.py - the function to excute running. A separated .job or .sh file if the simulation is supposed to be run in a visual machine.
+
 utils.py - contains helper functions 
+
 config.py - contains the GEV parameters to generate recurrent flood with different intensity
+
